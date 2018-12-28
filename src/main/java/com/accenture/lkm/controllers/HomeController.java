@@ -12,7 +12,7 @@ public class HomeController {
 	public ModelAndView home() {
 		ModelAndView mv = new ModelAndView("index");
 		mv.addObject("title", "Accenture");
-		mv.addObject("greeting", "Welcome to Orchestrating with Jenkins Training!");
+		mv.addObject("greeting", "Welcome to Orchestrating with Jenkins");
 		return mv;
 	}
 	
